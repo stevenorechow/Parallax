@@ -6,10 +6,10 @@ module.exports = {
   siteMetadata: {
     siteTitle: `Custom Parallax by Steven Orechow`,
     // Default title of the page
-    siteTitleAlt: `Steven`,
+    siteTitleAlt: `Steven's Gatsby Project.`,
     siteHeadline: `This is a custom parallax project using GatsbyJS. - @steven`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://projects.stevenorechow.me`,
+    siteUrl: `https://stevenorechow.netlify.app/`,
     siteDescription: `Custom Parallax Project by Steven Orechow`,
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
@@ -36,8 +36,8 @@ module.exports = {
         short_name: `Steven`,
         description: `Hello, I'm Steven, and this is custom parallax.`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#001123`,
+        theme_color: `#bbffe4`,
         display: `standalone`,
         icons: [
           {
