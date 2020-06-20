@@ -9,7 +9,7 @@ module.exports = {
     siteTitleAlt: `Steven's Gatsby Project.`,
     siteHeadline: `This is a custom parallax project using GatsbyJS. - @steven`,
     // Will be used to generate absolute URLs for og:image etc.
-    siteUrl: `https://stevenorechow.netlify.app/`,
+    siteUrl: `https://projects.stevenorechow.me/`,
     siteDescription: `Custom Parallax Project by Steven Orechow`,
     siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
