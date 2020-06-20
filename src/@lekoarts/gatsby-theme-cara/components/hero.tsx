@@ -117,7 +117,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         left="25%"
         top="5%"
       />
-      <SVG icon="circle" width={64} color="icon_purple" left="95%" top="5%" />
+      <SVG icon="circle" width={64} color="#5378ff" left="95%" top="5%" />
       <SVG
         icon="box"
         hiddenMobile
