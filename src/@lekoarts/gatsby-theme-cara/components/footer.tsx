@@ -27,7 +27,7 @@ const Footer = () => {
         {isDark ? `Light` : `Dark`}
       </button>
       {/*Edit your footer Here */}
-      <Flex>You can toggle between Dark/Light Mode here.<br> 
+      <Flex>You can toggle between Dark/Light Mode here. 
       This project is Open Source and available on  <a hef="https://github.com/stevenorechow/parallax">Github</a>.
       </Flex>
       {/*Edit your footer Here */}
