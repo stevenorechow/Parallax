@@ -39,7 +39,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="arrowUp"
           hiddenMobile
           width={16}
-          color="icon_bright"
+          color="#bbffe4"
           left="80%"
           top="10%"
         />
