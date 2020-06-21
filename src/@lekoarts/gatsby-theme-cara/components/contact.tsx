@@ -67,7 +67,7 @@ const Contact = ({
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <ContactMDX />
-        <Button backgroundColor="#1E96FC">
+        <Button backgroundColor="#5378ff">
           <Link
             sx={{
               // values referencing scales defined in a theme
@@ -78,7 +78,7 @@ const Contact = ({
             }}
             href="https://stevenorechow.me"
           >
-            This is Button
+            Let's Build a Website
           </Link>
         </Button>
         {/* Start Your custom button here */}
@@ -94,7 +94,7 @@ const Contact = ({
             </Link>
           </Button>
         </Box>
-        {/* end Your custom button here */}
+        {/* End custom button here */}
       </Inner>
       <Footer />
     </Content>
