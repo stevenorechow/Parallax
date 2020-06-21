@@ -129,7 +129,7 @@ const Contact = ({
         <SVG
           icon="circle"
           width={6}
-          color="#bbffe4"
+          color="icon_darkest"
           left="85%"
           top="15%"
         />
@@ -142,7 +142,7 @@ const Contact = ({
           top="10%"
         />
       </UpDownWide>
-      <SVG icon="circle" width={6} color="icon_brightest" left="4%" top="20%" />
+      <SVG icon="circle" width={6} color="icon_darkest" left="4%" top="20%" />
       <SVG icon="circle" width={12} color="icon_darkest" left="70%" top="60%" />
       <SVG icon="box" width={12} color="icon_darkest" left="20%" top="30%" />
       <SVG
