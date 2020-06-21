@@ -26,7 +26,7 @@ const Footer = () => {
         {isDark ? `Light` : `Dark`}
       </button>
       {/*Edit your footer Here */}
-    This project is Open Source and available on  <a hef="https://github.com/stevenorechow/parallax">Github</a>
+    This project is Open Source and available on  <span class="contact-link"><a hef="https://github.com/stevenorechow/parallax">Github</a></span>
       {/*Edit your footer Here */}
       <br />
     </Box>
