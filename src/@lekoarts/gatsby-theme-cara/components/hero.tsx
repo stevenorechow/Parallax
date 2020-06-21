@@ -45,9 +45,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         />
         <SVG
           icon="triangle"
-          width={12}
+          width={10}
           stroke
-          color="icon_brightest"
+          color="icon_darkest"
           left="90%"
           top="50%"
         />
@@ -68,9 +68,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         />
         <SVG
           icon="cross"
-          width={16}
+          width={12}
           stroke
-          color="icon_bright"
+          color="icon_darkest"
           left="28%"
           top="15%"
         />
