@@ -33,7 +33,7 @@ const Footer = () => {
       {/* Start Github button here */}
         <Box my="1rem">
           <Button backgroundColor="transparent">
-            <Link href=“http://github.com/stevenorechow/parallax>
+            <Link href=“https://github.com/stevenorechow/parallax>
               <FaGithub color="#bbffe4" />
             </Link>
           </Button>
