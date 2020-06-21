@@ -4,6 +4,18 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
+export default function Home() {
+  return (
+    <>
+      <Helmet>
+        <title>Steven's Gatsby Project</title>
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+      </Helmet>
+    
+    <header>
+    <meta name="robots" content="noindex" />
+    </header>
+
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
   useCustomProperties: true,
