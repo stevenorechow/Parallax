@@ -1,6 +1,7 @@
 /** @jsx jsx */
 
 import { Box, Flex, useColorMode, jsx } from 'theme-ui'
+import { FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -28,6 +29,16 @@ const Footer = () => {
       {/*Edit your footer Here */}
       <Flex>You can toggle between Dark/Light Mode here. Pretty neat, huh?</Flex>
       {/*Edit your footer Here */}
+      
+      {/* Start Github button here */}
+        <Box my="1rem">
+          <Button backgroundColor="transparent">
+            <Link href=“http://github.com/stevenorechow/parallax>
+              <FaGithub color="#bbffe4" />
+            </Link>
+          </Button>
+        </Box>
+        {/* End Github button here */}
       <br />
     </Box>
   )
