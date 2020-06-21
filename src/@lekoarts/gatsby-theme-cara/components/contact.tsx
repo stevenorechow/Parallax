@@ -81,7 +81,7 @@ const Contact = ({
             Let's Build a Website
           </Link>
         </Button>
-        {/* Start Your custom button here */}
+        {/* Start custom button here */}
         <Box my="1rem">
           <Button backgroundColor="transparent">
             <Link href="mailto:stevenorechow@gmail.com">
@@ -122,14 +122,14 @@ const Contact = ({
           icon="triangle"
           width={12}
           stroke
-          color="icon_brightest"
+          color="#5378ff"
           left="95%"
           top="50%"
         />
         <SVG
           icon="circle"
           width={6}
-          color="icon_brightest"
+          color="#bbffe4"
           left="85%"
           top="15%"
         />
