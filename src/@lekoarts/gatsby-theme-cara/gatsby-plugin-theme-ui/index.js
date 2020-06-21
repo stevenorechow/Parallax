@@ -1,5 +1,8 @@
 import { merge } from 'theme-ui'
 import { tailwind } from '@theme-ui/presets'
+import React from "react"
+import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
