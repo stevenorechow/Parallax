@@ -91,7 +91,7 @@ const theme = merge(tailwind, {
       },
     },
     h1: {
-      fontSize: [6, 7, 8],
+      fontSize: [5, 6, 7],
       mt: 2,
       mb: 3,
       textShadow: `rgba(255, 255, 255, 0.15) 0px 5px 35px`,
