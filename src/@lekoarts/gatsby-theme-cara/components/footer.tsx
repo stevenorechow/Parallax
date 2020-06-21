@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { Box, Flex, useColorMode, jsx } from 'theme-ui'
+import { Box, Flex, useColorMode, jsx, Link } from 'theme-ui'
 import { FaGithub } from 'react-icons/fa'
 
 const Footer = () => {
