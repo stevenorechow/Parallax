@@ -1,29 +1,15 @@
-import { merge } from 'theme-ui'
+import merge from 'lodash.merge'
 import { tailwind } from '@theme-ui/presets'
-import React from "react"
-import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
+import baseTheme from '@lekoarts/gatsby-theme-cara/src/gatsby-plugin-theme-ui'
 
-export default function Home() {
-  return (
-    <>
-      <Helmet>
-        <title>Steven's Gatsby Project</title>
-        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-      </Helmet>
-
-const theme = merge(tailwind, {
+// lodash.merge will deeply merge custom values with the
+// blog theme's defaults
+export default merge({}, baseTheme, {
   initialColorModeName: `dark`,
   useCustomProperties: true,
-  extend: {
-    colors: {
-      light_cyan: '#bbffe4',
-      dark_blue: '#1E96FC',
-      bright_purple: '#5378ff',
-    },
-  },
+  useBodyStyles: true,
   colors: {
-    primary: tailwind.colors.blue[4],
+    primary: tailwind.colors.orange[4],
     secondary: tailwind.colors.indigo[6],
     text: tailwind.colors.gray[3],
     heading: tailwind.colors.white,
@@ -36,16 +22,18 @@ const theme = merge(tailwind, {
     icon_red: tailwind.colors.red[6],
     icon_blue: tailwind.colors.blue[6],
     icon_orange: tailwind.colors.orange[5],
-    icon_gray: tailwind.colors.gray[5],
     icon_yellow: tailwind.colors.yellow[5],
     icon_pink: tailwind.colors.pink[5],
     icon_purple: tailwind.colors.purple[6],
     icon_green: tailwind.colors.green[5],
+    light_cyan: '#bbffe4',
+    dark_blue: '#1E96FC',
+    bright_purple: '#5378ff',
     modes: {
       light: {
         text: tailwind.colors.gray[8],
         heading: tailwind.colors.black,
-        primary: tailwind.colors.blue[7],
+        primary: tailwind.colors.orange[7],
         background: tailwind.colors.gray[1],
         divider: tailwind.colors.gray[2],
         textMuted: tailwind.colors.gray[6],
@@ -102,7 +90,7 @@ const theme = merge(tailwind, {
       },
     },
     h1: {
-      fontSize: [5, 6, 7],
+      fontSize: [6, 7, 8],
       mt: 2,
       mb: 3,
       textShadow: `rgba(255, 255, 255, 0.15) 0px 5px 35px`,
@@ -150,10 +138,6 @@ const theme = merge(tailwind, {
       py: 2,
       ml: 3,
     },
-    secondary: {
-      color: 'white',
-      bg: 'light_cyan',
-    },
   },
   texts: {
     bigger: {
@@ -163,5 +147,3 @@ const theme = merge(tailwind, {
     },
   },
 })
-
-export default theme

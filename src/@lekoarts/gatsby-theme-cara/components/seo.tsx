@@ -1,26 +1,26 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { withPrefix } from "gatsby";
-import useSiteMetadata from "../hooks/use-site-metadata";
+import React from 'react'
+import { Helmet } from 'react-helmet'
+import { withPrefix } from 'gatsby'
+import useSiteMetadata from '@lekoarts/gatsby-theme-cara/src/hooks/use-site-metadata'
 
 const defaultProps = {
   title: ``,
   description: false,
   pathname: false,
   image: false,
-  children: null
-};
+  children: null,
+}
 
 type Props = {
-  title?: string;
-  description?: string;
-  pathname?: string;
-  image?: string;
-  children?: React.ReactNode;
-};
+  title?: string
+  description?: string
+  pathname?: string
+  image?: string
+  children?: React.ReactNode
+}
 
 const SEO = ({ title, description, pathname, image, children }: Props) => {
-  const site = useSiteMetadata();
+  const site = useSiteMetadata()
 
   const {
     siteTitle,
@@ -29,15 +29,15 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
     siteDescription: defaultDescription,
     siteLanguage,
     siteImage: defaultImage,
-    author
-  } = site;
+    author,
+  } = site
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     url: `${siteUrl}${pathname || ``}`,
-    image: `${siteUrl}${image || defaultImage}`
-  };
+    image: `${siteUrl}${image || defaultImage}`,
+  }
   return (
     <Helmet
       title={title}
@@ -81,9 +81,9 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
       />
       {children}
     </Helmet>
-  );
-};
+  )
+}
 
-export default SEO;
+export default SEO
 
-SEO.defaultProps = defaultProps;
+SEO.defaultProps = defaultProps
