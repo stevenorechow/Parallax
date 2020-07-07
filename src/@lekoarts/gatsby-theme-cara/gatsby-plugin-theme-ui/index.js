@@ -11,10 +11,6 @@ export default function Home() {
         <title>Steven's Gatsby Project</title>
         <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
       </Helmet>
-    
-    <header>
-    <meta name="robots" content="noindex" />
-    </header>
 
 const theme = merge(tailwind, {
   initialColorModeName: `dark`,
