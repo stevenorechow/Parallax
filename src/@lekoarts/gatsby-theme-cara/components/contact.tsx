@@ -76,7 +76,7 @@ const Contact = ({
                 color: 'white',
               },
             }}
-            href="https://stevenorechow.me"
+            href="https://stevenorechow.com"
           >
             Let's Build a Website
           </Link>
