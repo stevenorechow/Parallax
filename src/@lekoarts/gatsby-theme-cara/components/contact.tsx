@@ -76,7 +76,7 @@ const Contact = ({
                 color: 'white',
               },
             }}
-            href="https://stevenorechow.com"
+            href="https://stevenorechow.me/"
           >
             Let's Build a Website
           </Link>
@@ -84,7 +84,7 @@ const Contact = ({
         {/* Start custom button here */}
         <Box my="1rem">
           <Button backgroundColor="transparent">
-            <Link href="mailto:stevenorechow@gmail.com">
+            <Link href="mailto:stevenorechow@pm.me">
               <FaEnvelope color="#bbffe4" />
             </Link>
           </Button>
